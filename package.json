@@ -1,0 +1,24 @@
+{
+  "name": "sedi",
+  "version": "0.0.1",
+  "description": "Sedi the content management platform.",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carynova/sedi.git"
+  },
+  "keywords": [
+    "js",
+    "content management",
+    "blog"
+  ],
+  "author": "carynova",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carynova/sedi/issues"
+  },
+  "homepage": "https://github.com/carynova/sedi#readme"
+}
