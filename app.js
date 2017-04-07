@@ -13,4 +13,10 @@ var usersRouter = require('./routers/users')
 app.use('/', indexRouter)
 app.use('/users', usersRouter)
 
+// custom error handler
+app.use((err, req, res, next) => {
+  console.error(err.stack)
+  res.status(500).send('something broke!')
+})
+
 app.listen(3000)
