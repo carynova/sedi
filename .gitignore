@@ -26,3 +26,6 @@ config/*
 
 # test coverage
 coverage
+
+# OSX
+.DS_Store

@@ -4,7 +4,7 @@
   "description": "Sedi the content management platform.",
   "main": "app.js",
   "scripts": {
-    "test": "npm test"
+    "test": "node ./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha"
   },
   "repository": {
     "type": "git",
@@ -22,8 +22,10 @@
   },
   "homepage": "https://github.com/carynova/sedi#readme",
   "devDependencies": {
+    "istanbul": "^0.4.5",
     "mocha": "^3.2.0",
-    "standard": "*"
+    "standard": "*",
+    "supertest": "^3.0.0"
   },
   "dependencies": {
     "config-lite": "^1.6.0",
