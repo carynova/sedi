@@ -19,3 +19,10 @@ pids
 
 # optional npm cache directory
 .npm
+
+# config file
+config/*
+!config/default.*
+
+# test coverage
+coverage
